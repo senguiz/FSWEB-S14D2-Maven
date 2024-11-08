@@ -5,8 +5,8 @@ import org.example.model.enums.LampType;
 import javax.swing.text.Style;
 
 public class Lamp {
-    private LampType style;
     private boolean battery;
+    private LampType style;
     private int globRating;
 
     public Lamp(boolean battery, LampType style, int globRating) {

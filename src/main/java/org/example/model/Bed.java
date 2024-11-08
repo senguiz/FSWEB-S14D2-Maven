@@ -30,7 +30,11 @@ public class Bed {
         return sheets;
     }
 
-    public int getQuilt() {
+    public String getStyle() {
+        return style;
+    }
+
+    public int getQuilts() {
         return quilt;
     }
 }
